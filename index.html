@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="coding club events and submit registration ">
+    <meta name="author" content="coding club">
+    <title>coding club-home</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1> welcome to coding club</h1>
+        <p> learn , code and grow together</p>
+
+    </header>
+    <nav>
+        <a href="index.html"> Home</a>
+        <a href="about.html"> About </a>
+        <a href="register.html"> Register</a>
+        <a href="contact.html">  Contact</a>
+    </nav>
+    
+    <main>
+        <section >
+            <h2> upcoming events</h2>
+
+            <table border="1">
+                <caption> coding club schedule </caption>
+                <thead>
+                    <tr>
+                        <th>events name</th>
+                        <th>date</th>
+                        <th>venue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> web development workshop</td>
+                        <td> 10 november</td>
+                        <td> lab 1</td>
+                    </tr>
+                    <tr>
+                        <td> code challenge</td>
+                        <td> 15 november</td>
+                        <td>  lab 2</td>
+                    </tr>
+                    <tr>
+                        <td>project exhibition</td>
+                        <td>20 november</td>
+                        <td>lab3</td>  
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"> toata events:3</td>
+                        </tr>
+                    </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2> student registration </h2>
+            <form >
+                <label for="name" > Full Name:</label>
+                <input type="text" id="name" name="name"  placeholder="Enter your name"required><br><br>
+                
+                <label for="email" >Email:</label>
+                <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+
+                <label for="password"> Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="date" >Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="phone"> Phone:</label>
+                <input type="tel" for="phone"  name="phone" ><br><br>
+
+                <p> Select Your Year:</p>
+                <label for="first"> First:</label>
+                <input type="radio" id="first" name="year" value="first">
+                <label for="second"> Second:</label>
+                <input type="radio" id="second" name="year" value="second"><br><br>
+                <p> Select your interests:</p>
+                <label for="html"> Html</label>
+                <input type="checkbox" id="html" name="interest"  value="html">
+                <label for="css" > CSS</label>
+                <input type="checkbox" id="css" name="interest" value="css">
+                <label for="javascript" > js</label>
+                <input type="checkbox" id="javascript" name="interest" value="js">
+                <br><br>
+
+                <label for="event"> Choose event:</label>
+                <select id="event" name="event">
+                    <option value=" " disabled selected> Select an event :</option>
+                    <option value="workshop"> web development workshop</option>
+                    <option value="challenge"> code challenge</option>
+                    <option value="exibition">project exibition </option>
+                </select>
+                <br><br>
+                <label for="message"> message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <button type="submit"> Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> coding club 2026</p>
+        <p> learn,code and grow together</p>
+    </footer>
+</body>
+</html>
